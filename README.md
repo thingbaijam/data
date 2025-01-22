@@ -13,7 +13,7 @@ Each folder is a self contained dataset, which includes:
 | ------------- | ------------- |
 | [DART Triggers](dart-triggers) | Catalogue of automatic triggers detected by the DART Network |
 | [Moment Tensors](moment-tensor) | Moment tensor solutions for earthquakes in New Zealand (generally M>4) |
-| [MLnz20](NZ-local-magnitude-2020) | _Provisional_ local New Zealand MLnz20 Network Magnitudes (SeisComp V7 Beta derived) |
+| [MLnz20](MLnz20) | _Provisional_ local New Zealand MLnz20 Network Magnitudes (SeisComp V7 Beta derived) |
 | [Site Class](site-class)    | Information on site class/characteristics for GeoNet sites  |
 | [Rupture Models](rupture-models) | Seismic and geodetic fault models for significant earthquakes |
 | [Strong Motion Peaks](strong-motion-peaks) | Summary files of peak strong motion measurements |
