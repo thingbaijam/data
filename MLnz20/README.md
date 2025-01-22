@@ -1,16 +1,18 @@
 # MLnz20 
-This is a _provisional_ NZ Local network magnitude MLnz20 dataset derived from offline processed Geonet Rapid data over a  Seiscomp "nightly" developement instance.
-It is a SeisComp _developement_ magnitude implementation derived from _Rhoades et al._ (2021, https://doi.org/10.1785/0120200252) 
-The dataset will be superseded when MLnz20 is implemented into GeoNet Rapid Productioni chain.
+This file is a _provisional_ NZ Local network magnitude MLnz20 dataset derived from offline processed Geonet Rapid event data and computed over a Gempa Seiscomp "Nightly" developement instance.
 
-MLnz20 network magnitudes are processed routinely offline every month from the GeoNet rapid solution. More frequent updates will be provided as required (event response for instance).
-Process is originally based on a GNS Seiscomp Nightly V7.0 (Development) implementation and will  be upgraded over time  
+It is a SeisComp _development_ magnitude implementation derived from _Rhoades et al._ (2021).
+This computation is originally based on a GNS Seiscomp Nightly V7.0 (Development) implementation and will be upgraded over time  
+
+Results are to be considered informational for science and development purposes as they are issued from a SeisComp development instance and subject to modifications.
+This dataset will be superseded as MLnz20 is implemented into GeoNet Rapid Production chain.
+
+## Dataset description
+MLnz20 network magnitudes are processed routinely offline every month from GeoNet rapid event solutions. More frequent updates are provided as required (event response for instance).
 Events ID and magnitudes are only displayed when MLnz20 and MLv are both successfully computed.
 
-Results are to be considered informational for science and development purposes as they are issued from a SeisComp development instance and subject to modifications.    
-
 Dataset starts from January 2024 onward and will be updated regularly.
-Dataset files will cover a year each maximum provided large number of potential entries.
+Dataset files cover a year maximum provided large number of potential entries.
 
 
 Fields | Description |
