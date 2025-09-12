@@ -10,11 +10,11 @@
  public_ids = '2103645'
  evdate    = [21, 8, 2003]  # [dd, mm, yyyy]
 
-[source]   # most can be retrived from the model file.
+[source]   # most can be retrieved from the model file.
  Mw        = 7.2
  Mo        = 7.48E+20 
- evlat     = -45.29
- evlon     = 166.87
+ evlat     = -45.30   # corrected using depth and the slip model
+ evlon     = 167.05
  evdep     = 24
  rlength   = nan
  rwidth    = nan

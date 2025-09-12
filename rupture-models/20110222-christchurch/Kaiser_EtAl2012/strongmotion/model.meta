@@ -2,21 +2,20 @@
 # Contains Finite Source Parameters meta data 
 # -------------------------------------------------------------------------
 [model]
- citation  = '[Beavan et al.(2012)]'
- reference = 'Beavan J, Motagh M, Fielding E, Donnelly N, Collett D, 2012. Fault slip models of the 2010-2011 Canterbury, New Zealand, earthquakes from geodetic data, and observations of post-seismic ground deformation, New Zealand Journal of Geology and Geophysics 55(3). doi:10.1080/00288306.2012.697472'
+ citation  = '[Kaiser et al., 2012]'
+ reference = 'Kaiser, A., Holden, C., Beavan, J., Beetham, D., Benites, R., Celentano, A., Collett, D., Cousins, J., Cubrinovski, M., Dellow, G. and Denys, P., 2012. The Mw 6.2 Christchurch earthquake of February 2011: preliminary report. New Zealand journal of geology and geophysics, 55(1), pp.67-90.'
  
 [event]
  region    = 'Christchurch, New Zealand'
- public_ids = '3631380, 3631359'
- evdate    = [23, 12, 2011]  # [dd, mm, yyyy]
+ public_ids = '3468575'
+ evdate    = [22, 2, 2011]  # [dd, mm, yyyy]
 
 [source]   # most can be retrived from the model file.
-# A single model considered for the sequence 
- Mw        = 6.12
+ Mw        = 6.2
  Mo        = nan
- evlat     = -43.505
- evlon     = 172.757
- evdep     = 5.9
+ evlat     = -43.570
+ evlon     = 172.680
+ evdep     = 5.0
  rlength   = nan
  rwidth    = nan
  strike    = nan
