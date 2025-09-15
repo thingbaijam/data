@@ -30,7 +30,7 @@
 % 999
 %
 % --------------------------------------------------------------------------------------------------
-% Sep-05-2025, created by Kiran (thingbaijam@gmail.com)
+% Sep-15-2025, created by Kiran (thingbaijam@gmail.com)
 % --------------------------------------------------------------------------------------------------
 %% SOURCE MODEL PARAMETERS
 %  	 X,Y,Z coordinates in km; SLIP in m
@@ -47,7 +47,7 @@
 %   depth to top:   Z2top = 10.977 km
 %   coordinates of top-center:
 %                   LAT = -45.0978,       LON = 166.8695
-%   hypocenter on SEG # 1 : along-strike (X) = 30.80 , down-dip (Z) = 39.41
+%   hypocenter on SEG # 2 : along-strike (X) = 23.00 , down-dip (Z) = 4.00
 %   Nsbfs =  50 subfaults
 % ----------------------------------------------------------------------------------------------------------------
 %    LAT    LON    X==EW    Y==NS    Z    SLIP    TRUP    STRIKE    DIP    RAKE
@@ -109,7 +109,7 @@
 %   depth to top:   Z2top = 21.434 km
 %   coordinates of top-center:
 %                   LAT = -45.2147,       LON = 167.1011
-%   hypocenter on SEG # 1 : along-strike (X) = 30.80 , down-dip (Z) = 39.41
+%   hypocenter on SEG # 2 : along-strike (X) = 23.00 , down-dip (Z) = 4.00
 %   Nsbfs =  50 subfaults
 % ----------------------------------------------------------------------------------------------------------------
 %    LAT    LON    X==EW    Y==NS    Z    SLIP    TRUP    STRIKE    DIP    RAKE

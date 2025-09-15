@@ -1,0 +1,54 @@
+# TOML format -------------------------------------------------------------
+# Contains Finite Source Parameters meta data 
+# -------------------------------------------------------------------------
+[model]
+ citation  = '[Kubota et al.(2018)]'
+ reference = 'Kubota, T., Saito, T., Ito, Y., Kaneko, Y., Wallace, L.M., Suzuki, S., Hino, R. and Henrys, S., 2018. Using tsunami waves reflected at the coast to improve offshore earthquake source parameters: Application to the 2016 Mw 7.1 Te Araroa earthquake, New Zealand. Journal of Geophysical Research: Solid Earth, 123(10), pp.8767-8779.'
+ 
+[event]
+ region    = 'Te Araroa, New Zealand'
+ public_ids = '2016p661332'
+ evdate    = [2, 9, 2016]  # [dd, mm, yyyy]
+
+[source]   # most can be retrived from the model file.
+ Mw        = 7.1
+ Mo        = nan
+ evlat     = -37.19  
+ evlon     = 179.03
+ evdep     = 28
+ rlength   = nan
+ rwidth    = nan
+ strike    = nan
+ dip       = nan
+ rake      = nan
+ hypX      = nan
+ hypZ      = nan
+ htop      = nan 
+ avTr      = nan
+ avVr      = nan
+ 
+[inversion]
+ Nseg      = nan
+ Nx        = nan
+ Nz        = nan
+ Dx        = nan
+ Dz        = nan
+ Ntw       = nan
+ SHF       = nan
+ Fmin      = nan
+ Fmax      = nan
+ SVF       = 'Unknown'
+ LEN       = nan
+
+[inversion.data]
+ type      = ['SGM', 'TELE', 'GPS', 'INSAR', 'OTHER']
+ count     = [-999,    0,     0,     0,     -999]
+ PHImx     = [-999,    0,     0,     0,     -999]
+ Rmin      = [-999,    0,     0,     0,     -999] 
+
+[inversion.cruststruct]
+ nlayers   =  nan 
+ model     = 'See the reference'
+ 
+ 
+ 
