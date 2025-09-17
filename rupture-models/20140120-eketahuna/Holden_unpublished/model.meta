@@ -13,9 +13,9 @@
 [source]   # most can be retrived from the model file.
  Mw        = 6.31
  Mo        = nan
- evlat     = -40.6202
- evlon     = 175.8650
- evdep     = 34.0
+ evlat     = -40.61
+ evlon     = 175.82
+ evdep     = 34.0  # puting on the plane
  rlength   = nan
  rwidth    = nan
  strike    = 213
