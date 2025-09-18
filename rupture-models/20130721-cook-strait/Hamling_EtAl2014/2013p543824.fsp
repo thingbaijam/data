@@ -6,7 +6,7 @@
 % Loc  : LAT = -41.6000            LON = 174.3300           DEP = 16.00
 % Size : LEN  = 65.00 km         WID = 25.90 km     Mw = 6.60     Mo = 8.91E+18 Nm
 % Mech : STRK = 234.0        DIP = 74.9     RAKE = 180.0    Htop = 0.00 km
-% Rupt : HypX = 85.00 km       HypZ = 43.00 km     avTr = nan s     avVr = nan km/s
+% Rupt : HypX = 33.50 km       HypZ = 17.09 km     avTr = nan s     avVr = nan km/s
 %
 % ---------------------------------  inversion-related parameters  ----------------------------
 %
@@ -30,7 +30,7 @@
 % 999
 %
 % --------------------------------------------------------------------------------------------------
-% Sep-17-2025, created by Kiran (thingbaijam@gmail.com)
+% Sep-18-2025, created by Kiran (thingbaijam@gmail.com)
 % --------------------------------------------------------------------------------------------------
 %% SOURCE MODEL PARAMETERS
 %   Nsbfs =  1625 subfaults

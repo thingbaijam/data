@@ -13,8 +13,8 @@
 [source]   # most can be retrived from the model file.
  Mw        = 6.6
  Mo        = nan
- evlat     = -41.730
- evlon     = 174.150
+ evlat     = -41.71
+ evlon     = 174.16
  evdep     = 8.0
  rlength   = nan
  rwidth    = nan
