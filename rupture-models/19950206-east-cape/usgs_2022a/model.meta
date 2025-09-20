@@ -1,0 +1,54 @@
+# TOML format -------------------------------------------------------------
+# Contains Finite Source Parameters meta data 
+# -------------------------------------------------------------------------
+[model]
+ citation  = '[USGS (2022)]'
+ reference = 'USGS (2022). M 7.1 - 118 km NNE of Gisborne, New Zealand, Finite Fault ver 1.0, https://earthquake.usgs.gov/earthquakes/eventpage/usp0006sef/finite-fault'
+ 
+[event]
+ region    = 'East Cape, New Zealand'
+ public_ids = '731516'
+ evdate    = [6, 2, 1995]  # [dd, mm, yyyy]
+
+[source]   # most can be retrieved from the model file.
+ Mw        = 7.2
+ Mo        = 7.0501737544999985e+19
+ evlat     = -37.76
+ evlon     = 178.75
+ evdep     = 21
+ rlength   = nan
+ rwidth    = nan
+ strike    = nan
+ dip       = nan
+ rake      = nan
+ hypX      = nan
+ hypZ      = nan
+ htop      = nan 
+ avTr      = nan
+ avVr      = nan
+ 
+[inversion]
+ Nseg      = 1
+ Nx        = nan
+ Nz        = nan
+ Dx        = nan
+ Dz        = nan
+ Ntw       = nan
+ SHF       = 1.0
+ Fmin      = 0.01
+ Fmax      = 0.125
+ SVF       = 'Asymetriccosine'
+ LEN       = 2.0
+
+[inversion.data]
+ type      = ['SGM', 'TELE', 'GPS', 'INSAR', 'SURF', 'OTHER']
+ count     = [0, 27,  0, 0, 14, 0]
+ PHImx     = [0,-999, 0, 0, -999, 0]
+ Rmin      = [0,-999, 0, 0, -999, 0] 
+
+[inversion.cruststruct]
+ nlayers   =  nan 
+ model     = 'See the reference'
+ 
+ 
+ 
